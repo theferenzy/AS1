@@ -1,29 +1,46 @@
 /*Index Page CSS*/
-body{
+* {
+    padding: 0;
     margin: 0;
-    font-family: sans-serif;
-    background-color: yellowgreen;
 }
 
-.topHeader{
-    overflow: hidden;
-    padding: 20px;
+body{
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    font-family: sans-serif;
+    background: linear-gradient(
+            to right,
+            gold 0%, 
+            gold 68%, 
+            black 32%, 
+            black 0%);
+    background-position: fixed;
+    background-size: cover;
 }
-.topHeader a{
+
+.topHeader {
+    overflow: hidden;
+    padding: 35px;
+}
+
+.topHeader a {
     justify-content: space-between;
     color: white;
     text-align: center;
     padding: 70px 80px;
-    margin-top: 10px;
+    margin-top: 15px;
     font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
     font-weight: bolder;
     font-size: x-large;
     text-decoration: none;
 }
-.topHeader a:hover{
-    background-color: lightgray;
+
+.topHeader a:hover {
+    background-color: whitesmoke;
     color: red;
 }
+
 .details {
     margin-left: 5%;
     margin-top: 14%;
@@ -36,7 +53,7 @@ body{
 }
 
 span {
-    color: darkmagenta;
+    color: white;
 }
 
 .details a {
@@ -74,7 +91,6 @@ footer {
     bottom: 0;
     width: 100%;
     font-weight: bold;
-    background-color: darkgray;
     color: white;
     text-align: center;
 }
