@@ -1,0 +1,15 @@
+Portfolio Project
+
+1. Create Index file
+	Content Outline
+		1. Background Information
+		2. Import Picture styled by CSS
+		3. Use Semantic HTML
+2. Create 3 CSS file
+	1. mobile.css#
+	2. desktop.css
+	3. main.css
+	Content Outline
+		1. 
+3. create 4 other files for the pages
+

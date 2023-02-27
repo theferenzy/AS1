@@ -1,0 +1,10 @@
+.showNav{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    grid-template-areas:
+        "hero"
+        "details"
+        "images"
+    ;
+}
