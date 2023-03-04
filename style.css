@@ -2,18 +2,18 @@
 * {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 
-body{
+.index {
     margin: 0;
     width: 100%;
     height: 100vh;
     font-family: sans-serif;
-    background: linear-gradient(
-            to right,
-            gold 0%, 
-            gold 68%, 
-            black 32%, 
+    background: linear-gradient(to right,
+            gold 0%,
+            gold 68%,
+            black 32%,
             black 0%);
     background-position: fixed;
     background-size: cover;
@@ -21,53 +21,71 @@ body{
 
 .topHeader {
     overflow: hidden;
-    padding: 35px;
+    padding: 50px;
 }
 
 .topHeader a {
     justify-content: space-between;
     color: white;
     text-align: center;
-    padding: 70px 80px;
-    margin-top: 15px;
+    padding: 50px 60px;
     font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
     font-weight: bolder;
     font-size: x-large;
     text-decoration: none;
 }
 
+.topHeader img {
+    float: left;
+    width: 100px;
+    height: 100px;
+    display: flexbox;
+}
+
 .topHeader a:hover {
-    background-color: whitesmoke;
-    color: red;
+    color: goldenrod;
 }
 
-.details {
+main {
     margin-left: 5%;
-    margin-top: 14%;
+    margin-top: 10%;
 }
 
-.details h1 {
+main h1 {
     font-size: 55px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: black;
+    margin-bottom: 20px;
+    margin-top: auto;
+}
+
+main h2 {
     margin-bottom: 20px;
 }
 
 span {
     color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-.details a {
+main a {
     background: black;
     padding: 10px 18px;
     text-decoration: none;
     font-weight: bold;
+    font-size: large;
     color: white;
     display: inline-block;
     margin: 70px 0;
-    border-radius: 5px;
+    border-radius: 20px;
 }
 
-.images {
+main a:hover {
+    color: brown;
+    transition: 1.5s;
+}
+
+aside {
     width: 45%;
     height: 80%;
     position: absolute;
@@ -75,7 +93,7 @@ span {
     right: 100px;
 }
 
-.images img {
+aside img {
     height: 75%;
     position: relative;
     top: 5%;
@@ -93,4 +111,130 @@ footer {
     font-weight: bold;
     color: white;
     text-align: center;
+}
+
+/*Portfolio CSS*/
+.pstyle h1 {
+    text-align: center;
+    color: gold;
+    font-size: 50px;
+
+}
+
+.pbackground {
+    background-color: black;
+}
+
+
+/*Contact Page Style*/
+.cbackground {
+    background-color: black;
+}
+
+.myinfo p a{
+    color: white;
+    text-align: left;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 25px;
+    margin-bottom: 25px;
+    text-indent: 10px;
+    line-height: 65px;
+    text-decoration: none;
+}
+.myinfo p a:hover{
+    color: gold;
+    transition: 1.0s;
+}
+
+.myinfo i{
+    font-size: 35px;
+    color: gold;
+    margin: 0 20px 0 0;
+}
+
+.Chead {
+    margin-left: 20px;
+    color: gold;
+    text-align: left;
+    font-size: 55px;
+    padding-bottom: 20px;
+}
+
+.head {
+    color: gold;
+    text-align: center;
+    font-size: 50px;
+    padding-bottom: 20px;
+}
+
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 20px;
+    border: 2px solid white;
+    margin-top: 7px;
+    margin-bottom: 17px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: white;
+    color: black;
+    padding: 12px 20px;
+    border-radius: 5px;
+    border-color: gold;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: gold;
+    transition: 1s;
+}
+
+.contact {
+    border-radius: 50px;
+    background-color: slategrey;
+    padding: 30px;
+    max-width: 800px;
+    margin: 2% auto;
+}
+
+.contact label {
+    display: block;
+    color: gold;
+    font-size: 25px;
+}
+
+.contact label ::placeholder {
+    color: black;
+    border: 5px;
+    border-radius: gold;
+}
+
+.alignment {
+    align-content: center;
+    width: 50%;
+    margin-top: 8px;
+    padding: 20px;
+}
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+
+/*Work Experienec Style*/
+.wbackground {
+    background-color: black;
+}
+
+
+/*Site Report Style*/
+.srbackground {
+    background-color: black;
 }

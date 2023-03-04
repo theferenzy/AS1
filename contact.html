@@ -4,18 +4,44 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Contacts</title>
+        <title>Contact</title>
     </head>
     <link rel="stylesheet" href="style.css">
-    <body>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  
+    <body class="cbackground">
         <header class="topHeader">
+            <img src="thefereny.png" alt="logo">
             <a href="index.html">Home</a>
             <a href="portfolio.html">Portfolio</a>
             <a href="contact.html">Contact</a>
             <a href="workexperience.html">Work Experience</a>
             <a href="sitereport.html">Site Report</a>
         </header>
-        <h1>Get In Touch</h1>
-        <form action=""></form>
+        <p class="Chead">Contact Information</p>
+        <div class="myinfo">
+            <p><a><i class="fa fa-map-marker" aria-hidden="true"></i>Northampton, United Kingdom</a></p>
+            <p><a href="mailto:theferenzy@gmail.com" target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i>theferenzy@gmail.com</a></p>
+            <p><a><i class="fa fa-phone" aria-hidden="true"></i>+44 (0) 7951499881</a></p>
+            <p><a href="https://www.instagram.com/theferenzy/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i>theferenzy</a></p>
+            <p><a href="https://www.facebook.com/samson.oluwaferanmi.10" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i>Oluwaferanmi Samson</a></p>
+            <p><a href="https://t.snapchat.com/ygF1uoKA" target="_blank"><i class="fa fa-snapchat-ghost" aria-hidden="true"></i>theferenzy</a></p>
+            <p><a href="https://www.linkedin.com/in/oluwaferanmi-samson-a2b525228/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i>Oluwaferanmi Samson</a></p>
+        </div>
+        <p class="head">Send me a Message!</p>
+        <section class="contact">
+            <form class="row" class="alignment" action="mailto:theferenzy@gmail.com">
+                <label for="FirstName">First Name</label>
+                <input type="text" id="FirstName" placeholder="Enter your first name...">
+                <label for="LastName">Last Name</label>
+                <input type="text" id="LastName" placeholder="Enter your last name...">
+                <label for="CountryName">Country</label>
+                <input type="text" id="CountryName" placeholder="Where are you from...?">
+                <label for="SubjectMessage">Subject</label>
+                <textarea name="SubjectMessage" id="SubjectMessage"
+                    placeholder="Type in your message..."></textarea>
+                <input type="submit" value="Submit">
+            </form>
+        </section>
     </body>
 </html>
